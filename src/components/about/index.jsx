@@ -11,13 +11,13 @@ import BrandArea from '@/src/common/brand-area';
 import TeamArea from '@/src/common/team-area';
 import BlogArea from '@/src/common/blog-area';
 import FooterContact from '@/src/layout/footers/footer-contact';
-import HeaderTwo from '@/src/layout/headers/header-2';
-import FooterTwo from '@/src/layout/footers/footer-2';
+import Header from '@/src/layout/headers/header';
+import Footer from '@/src/layout/footers/footer';
 
 const About = () => {
   return (
     <>
-      <HeaderTwo />
+      <Header />
       <main>
         <Breadcrumb top_title="Our Company" page_title="Our Company" />
         <AboutArea about={true} />
@@ -32,7 +32,7 @@ const About = () => {
         <BlogArea />
         <FooterContact />
       </main>
-      <FooterTwo />
+      <Footer />
     </>
   );
 };

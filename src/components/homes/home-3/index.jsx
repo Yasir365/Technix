@@ -11,13 +11,13 @@ import BrandArea from '../../../common/brand-area';
 import TeamArea from '../../../common/team-area';
 import BlogArea from '../../../common/blog-area';
 import FooterContact from '../../../layout/footers/footer-contact';
-import HeaderTwo from '@/src/layout/headers/header-2';
-import FooterTwo from '@/src/layout/footers/footer-2';
+import Header from '@/src/layout/headers/header';
+import Footer from '@/src/layout/footers/footer';
 
 const HomeThree = () => {
     return (
         <>
-            <HeaderTwo />
+            <Header />
             <main>
                 <HeroArea />
                 <CounterArea />
@@ -32,7 +32,7 @@ const HomeThree = () => {
                 <BlogArea />
                 <FooterContact />
             </main>
-            <FooterTwo />
+            <Footer />
 
         </>
     );

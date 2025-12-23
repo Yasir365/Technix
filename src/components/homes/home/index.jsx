@@ -9,13 +9,13 @@ import TestimonialArea from "./testimonial-area";
 import SliderArea from "./slider-area";
 import FaqArea from "./faq-area";
 import BlogArea from "./blog-area";
-import HeaderTwo from "@/src/layout/headers/header-2";
-import FooterTwo from "@/src/layout/footers/footer-2";
+import Header from "@/src/layout/headers/header";
+import Footer from "@/src/layout/footers/footer";
 
 const HomeOne = () => {
   return (
     <>
-      <HeaderTwo />
+      <Header />
       <main>
         <HeroSlider />
         <AboutArea />
@@ -27,7 +27,7 @@ const HomeOne = () => {
         <SliderArea />
         <FaqArea />
         <BlogArea />
-        <FooterTwo />
+        <Footer />
       </main>
     </>
   );

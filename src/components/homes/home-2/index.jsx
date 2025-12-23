@@ -9,13 +9,13 @@ import BrandArea from "./brand-area";
 import BlogArea from "./blog-area";
 import TestimonialArea from "./testimonial-area";
 import CtaArea from "./cta-area";
-import FooterTwo from "@/src/layout/footers/footer-2";
-import HeaderTwo from "@/src/layout/headers/header-2";
+import Footer from "@/src/layout/footers/footer";
+import Header from "@/src/layout/headers/header";
 
 const HomeTwo = () => {
   return (
     <>
-      <HeaderTwo />
+      <Header />
       <main>
         <HeroArea />
         <OfferArea />
@@ -28,7 +28,7 @@ const HomeTwo = () => {
         <TestimonialArea />
         <CtaArea />
       </main>
-      <FooterTwo />
+      <Footer />
     </>
   );
 };

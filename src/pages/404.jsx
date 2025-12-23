@@ -4,15 +4,15 @@ import Image from "next/image";
 import SEO from "../common/seo";
 import error_shape from "@assets/img/error/error-shape.png";
 import error_img from "@assets/img/error/404.png";
-import HeaderTwo from "../layout/headers/header-2";
-import FooterTwo from "../layout/footers/footer-2";
+import Header from "../layout/headers/header";
+import Footer from "../layout/footers/footer";
 
 
 const index = () => {
   return (
     <>
       <SEO pageTitle={"Oops.! Page Not Found!"} />
-      <HeaderTwo />
+      <Header />
       <div id="smooth-wrapper">
         <div id="smooth-content">
           <main>
@@ -42,7 +42,7 @@ const index = () => {
               </div>
             </div>
           </main>
-          <FooterTwo />
+          <Footer />
         </div>
       </div>
     </>

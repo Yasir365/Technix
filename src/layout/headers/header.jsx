@@ -9,7 +9,7 @@ import logo_shape from "@assets/img/hero/hero-2/logo-shape.png";
 import SearchPopup from '@/src/modals/search-popup';
 import Sidebar from '@/src/modals/sidebar';
 
-const HeaderTwo = () => {
+const Header = () => {
    const { sticky } = useSticky()
    const [searchOpen, setSearchOpen] = useState(false)
    const [sidebarOpen, setSidebarOpen] = useState(false)
@@ -113,4 +113,4 @@ const HeaderTwo = () => {
    );
 };
 
-export default HeaderTwo;
+export default Header;
