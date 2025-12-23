@@ -1,14 +1,14 @@
 import Breadcrumb from "@/src/common/breadcrumb/breadcrumb";
-import HeaderOne from "@/src/layout/headers/header";
 import React from "react";
 import ServiceDetailsArea from "./service-details-area";
 import FooterContact from "@/src/layout/footers/footer-contact";
 import FooterThree from "@/src/layout/footers/footer-3";
+import HeaderTwo from "@/src/layout/headers/header-2";
 
 const ServiceDetails = () => {
   return (
     <>
-      <HeaderOne />
+      <HeaderTwo />
       <main>
         <Breadcrumb top_title="Machine Learning" page_title="Service Details" />
         <ServiceDetailsArea />

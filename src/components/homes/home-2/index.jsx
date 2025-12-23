@@ -1,4 +1,3 @@
-import HeaderTwo from "@/src/layout/headers/header-2";
 import React from "react";
 import HeroArea from "./hero-area";
 import OfferArea from "./offer-area";
@@ -11,24 +10,25 @@ import BlogArea from "./blog-area";
 import TestimonialArea from "./testimonial-area";
 import CtaArea from "./cta-area";
 import FooterTwo from "@/src/layout/footers/footer-2";
+import HeaderTwo from "@/src/layout/headers/header-2";
 
 const HomeTwo = () => {
   return (
     <>
       <HeaderTwo />
-        <main>
-          <HeroArea />
-          <OfferArea />
-          <BusinessArea />
-          <CounterArea />
-          <IndustryArea />
-          <FeatureArea />
-          <BrandArea />
-          <BlogArea />
-          <TestimonialArea />
-          <CtaArea />
-        </main>
-        <FooterTwo />
+      <main>
+        <HeroArea />
+        <OfferArea />
+        <BusinessArea />
+        <CounterArea />
+        <IndustryArea />
+        <FeatureArea />
+        <BrandArea />
+        <BlogArea />
+        <TestimonialArea />
+        <CtaArea />
+      </main>
+      <FooterTwo />
     </>
   );
 };
