@@ -3,21 +3,15 @@ import React from 'react';
 import ContactArea from './contact-area';
 import GoogleMap from './google-map';
 import FooterContact from '@/src/layout/footers/footer-contact';
-import Header from '@/src/layout/headers/header';
-import Footer from '@/src/layout/footers/footer';
 
 const Contact = () => {
     return (
-        <>
-            <Header />
-            <main>
-                <Breadcrumb top_title="Contact Us" page_title="Contact Us" />
-                <ContactArea />
-                <GoogleMap />
-                <FooterContact contact_style={true} />
-            </main>
-            <Footer />
-        </>
+        <main>
+            <Breadcrumb top_title="Contact Us" page_title="Contact Us" />
+            <ContactArea />
+            <GoogleMap />
+            <FooterContact contact_style={true} />
+        </main>
     );
 };
 

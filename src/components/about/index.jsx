@@ -10,28 +10,22 @@ import TestimonialArea from '@/src/common/testimonial-area';
 import BrandArea from '@/src/common/brand-area';
 import BlogArea from '@/src/common/blog-area';
 import FooterContact from '@/src/layout/footers/footer-contact';
-import Header from '@/src/layout/headers/header';
-import Footer from '@/src/layout/footers/footer';
 
 const About = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <Breadcrumb top_title="Our Company" page_title="Our Company" />
-        <AboutArea about={true} />
-        <CounterArea about={true} />
-        <FeatureArea about={true} />
-        <SupportArea />
-        <VideoArea />
-        <TestimonialFeature />
-        <TestimonialArea />
-        <BrandArea />
-        <BlogArea />
-        <FooterContact />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Breadcrumb top_title="Our Company" page_title="Our Company" />
+      <AboutArea about={true} />
+      <CounterArea about={true} />
+      <FeatureArea about={true} />
+      <SupportArea />
+      <VideoArea />
+      <TestimonialFeature />
+      <TestimonialArea />
+      <BrandArea />
+      <BlogArea />
+      <FooterContact />
+    </main>
   );
 };
 

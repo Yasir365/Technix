@@ -9,28 +9,22 @@ import BrandArea from "./brand-area";
 import BlogArea from "./blog-area";
 import TestimonialArea from "./testimonial-area";
 import CtaArea from "./cta-area";
-import Footer from "@/src/layout/footers/footer";
-import Header from "@/src/layout/headers/header";
 
-const HomeTwo = () => {
+const Home = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <HeroArea />
-        <OfferArea />
-        <BusinessArea />
-        <CounterArea />
-        <IndustryArea />
-        <FeatureArea />
-        <BrandArea />
-        <BlogArea />
-        <TestimonialArea />
-        <CtaArea />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <HeroArea />
+      <OfferArea />
+      <BusinessArea />
+      <CounterArea />
+      <IndustryArea />
+      <FeatureArea />
+      <BrandArea />
+      <BlogArea />
+      <TestimonialArea />
+      <CtaArea />
+    </main>
   );
 };
 
-export default HomeTwo;
+export default Home;

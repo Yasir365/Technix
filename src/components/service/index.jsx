@@ -11,19 +11,15 @@ import Footer from "@/src/layout/footers/footer";
 
 const Sevice = () => {
   return (
-    <>
-      <Header />
-      <main>
-        <Breadcrumb top_title="Our Services" page_title="Service" />
-        <ServiceArea />
-        <VideoArea service={true} />
-        <IndustryArea service={true} />
-        <BrandArea service={true} />
-        <BlogArea service={true} />
-        <FooterContact />
-      </main>
-      <Footer />
-    </>
+    <main>
+      <Breadcrumb top_title="Our Services" page_title="Service" />
+      <ServiceArea />
+      <VideoArea service={true} />
+      <IndustryArea service={true} />
+      <BrandArea service={true} />
+      <BlogArea service={true} />
+      <FooterContact />
+    </main>
   );
 };
 

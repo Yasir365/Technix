@@ -1,13 +1,13 @@
 import React from 'react';
 import Wrapper from '../layout/wrapper';
 import SEO from '../common/seo';
-import HomeTwo from '../components/home';
+import Home from '../components/home';
 
 const index = () => {
     return (
         <Wrapper>
             <SEO pageTitle="Technix" />
-            <HomeTwo />
+            <Home />
         </Wrapper>
     );
 };
