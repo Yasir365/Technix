@@ -6,10 +6,10 @@ import conversation from "@assets/img/cta/home-3/conversation.png";
 import footer_contact_shape_1 from "@assets/img/cta/home-3/shape-2.png";
 import footer_contact_shape_2 from "@assets/img/cta/home-3/shape-3.png";
 
-const FooterContact = ({bg_style, contact_style}) => {
+const FooterContact = ({ bg_style, contact_style }) => {
     return (
         <>
-            <div className={`${bg_style ? "" : contact_style ? "tp-contact-cta-area" : "tp-cta-4-area"} p-relative`}>
+            <div className={`${bg_style ? "" : contact_style ? "tp-contact-cta-area" : "tp-cta-4-area"} p-relative mb-4 lg:mb-6`}>
                 <div className="tp-cta-4-shape">
                     <Image src={footer_contact_shape_1} alt="theme-pure" />
                 </div>

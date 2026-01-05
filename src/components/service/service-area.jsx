@@ -50,7 +50,7 @@ const ServiceArea = () => {
                             </div>
                         )}
                     </div>
-                    <div className="row justify-content-center">
+                    <div className="row justify-content-center mb-5">
                         <div className="col-xl-8 text-center">
                             <div className="tp-about-call fadeUp">
                                 <a href="tel:01310-069824">

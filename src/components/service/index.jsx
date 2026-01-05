@@ -3,7 +3,6 @@ import Breadcrumb from "@/src/common/breadcrumb/breadcrumb";
 import ServiceArea from "./service-area";
 import IndustryArea from "@/src/common/industry-area";
 import BrandArea from "@/src/common/brand-area";
-import BlogArea from "@/src/common/blog-area";
 import FooterContact from "@/src/layout/footers/footer-contact";
 
 const Sevice = () => {
@@ -13,7 +12,6 @@ const Sevice = () => {
       <ServiceArea />
       <IndustryArea service={true} />
       <BrandArea service={true} />
-      <BlogArea service={true} />
       <FooterContact />
     </main>
   );
