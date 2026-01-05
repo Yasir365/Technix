@@ -6,7 +6,6 @@ import CounterArea from "./counter-area";
 import IndustryArea from "../../common/industry-area";
 import FeatureArea from "./feature-area";
 import BrandArea from "./brand-area";
-import BlogArea from "./blog-area";
 import TestimonialArea from "./testimonial-area";
 import CtaArea from "./cta-area";
 
@@ -20,7 +19,6 @@ const Home = () => {
       <IndustryArea />
       <FeatureArea />
       <BrandArea />
-      <BlogArea />
       <TestimonialArea />
       <CtaArea />
     </main>

@@ -4,7 +4,6 @@ import AboutArea from '../home/about-area';
 import CounterArea from '../home/counter-area';
 import FeatureArea from '../home/feature-area';
 import SupportArea from './support-area';
-import VideoArea from '../../common/video-area';
 import TestimonialFeature from './feature-testimonial';
 import TestimonialArea from '@/src/common/testimonial-area';
 import BrandArea from '@/src/common/brand-area';
@@ -19,7 +18,6 @@ const About = () => {
       <CounterArea about={true} />
       <FeatureArea about={true} />
       <SupportArea />
-      <VideoArea />
       <TestimonialFeature />
       <TestimonialArea />
       <BrandArea />
