@@ -10,13 +10,13 @@ const PortfolioArea = () => {
                 <div className="container">
                     <div className="row">
                         {portfolio_data.map((item, i) =>
-                            <div key={i} className="col-xl-4 col-lg-6 col-md-6">
+                            <div key={i} className="col-xl-4 col-lg-6 col-md-6 mb-4">
                                 <div className="tp-portfolio-item-wrapper">
                                     <div className="tp-portfolio-item-thumb">
                                         <Image src={item.img} alt="theme-pure" />
                                     </div>
                                     <div className="tp-portfolio-item-content">
-                                        <span className="tp-portfolio-item-subtitle">{item.catagory}</span>
+                                        {/* <span className="tp-portfolio-item-subtitle">{item.catagory}</span> */}
                                         <h3 className="tp-portfolio-item-title">
                                             <Link href={`/portfolio-details/${item.id}`}>{item.title}</Link></h3>
                                         <div className="tp-portfolio-item-content-btn">
