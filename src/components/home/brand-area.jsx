@@ -11,7 +11,7 @@ import brand_img_5 from "@assets/img/brand/home-2/shape-5.png";
 const BrandArea = () => {
    return (
       <>
-         <div className="tp-brand-2-area p-relative pt-120 pb-80">
+         <div className="tp-brand-2-area p-relative pt-5 pb-80">
             <div className="tp-brand-2-bg" style={{ backgroundImage: `url(/assets/img/brand/home-2/shape-bg.png)` }}></div>
             <div className="container">
 

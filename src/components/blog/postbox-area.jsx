@@ -14,7 +14,7 @@ import UserProfile from './user-profile';
 const PostboxArea = () => {
    return (
       <>
-         <section className="postbox__area pt-120 pb-120">
+         <section className="postbox__area pt-5 pb-120">
             <div className="container">
                <div className="row">
                   <div className="col-xxl-8 col-xl-8 col-lg-8">

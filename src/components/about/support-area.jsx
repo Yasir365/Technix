@@ -30,7 +30,7 @@ const SupportArea = () => {
 
    return (
       <>
-         <section className="tp-support-breadcrumb fix pt-120 pb-210">
+         <section className="tp-support-breadcrumb fix pt-5 pb-210">
             <div className="container">
                <div className="row">
                   <div className="col-lg-6">

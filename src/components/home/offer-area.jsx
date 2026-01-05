@@ -38,7 +38,7 @@ const offering_data = [
 const OfferArea = () => {
    return (
       <>
-         <section className="tp-offer-area p-relative pt-120 pb-90" style={{ backgroundImage: `url(/assets/img/offering/bg.png)` }}>
+         <section className="tp-offer-area p-relative pt-5 pb-90" style={{ backgroundImage: `url(/assets/img/offering/bg.png)` }}>
             <div className="tp-offer-overlay"></div>
             <div className="tp-offer-shape">
                <Image className="shape-1 d-none d-xl-block" src={offer_shape_1} alt="theme-pure" />

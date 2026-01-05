@@ -62,7 +62,7 @@ const setting = {
 const BlogArea = () => {
     return (
         <>
-            <section className="tp-blog-2-area p-relative pt-120">
+            <section className="tp-blog-2-area p-relative pt-5">
                 <div className="tp-blog-2-shape">
                     <div className="shape-1">
                         <Image src={shape_1} alt="theme-pure" />

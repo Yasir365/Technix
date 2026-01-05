@@ -59,7 +59,7 @@ const { meta_content, title_1, description_1, description_2, title_2, list_title
 const PortfolioDetailsArea = () => {
     return (
         <>
-            <section className="tp-portfolio-details-area pt-120 pb-120">
+            <section className="tp-portfolio-details-area pt-5 pb-120">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

@@ -6,7 +6,7 @@ import React from 'react';
 const PortfolioArea = () => {
     return (
         <>
-            <section className="tp-portfolio-area pt-120 pb-60">
+            <section className="tp-portfolio-area pt-5 pb-60">
                 <div className="container">
                     <div className="row">
                         {portfolio_data.map((item, i) =>
