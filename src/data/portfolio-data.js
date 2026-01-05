@@ -1,5 +1,5 @@
 
-import portfolio_img_1 from "@assets/img/portfolio/img1.png";
+import portfolio_img_1 from "@assets/img/portfolio/test.png";
 import portfolio_img_2 from "@assets/img/portfolio/img-2.jpg";
 import portfolio_img_3 from "@assets/img/portfolio/img-3.jpg";
 import portfolio_img_4 from "@assets/img/portfolio/img-4.jpg";
