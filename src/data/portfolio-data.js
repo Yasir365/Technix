@@ -1,5 +1,5 @@
 
-import portfolio_img_1 from "@assets/img/portfolio/img-1.jpg";
+import portfolio_img_1 from "@assets/img/portfolio/img1.png";
 import portfolio_img_2 from "@assets/img/portfolio/img-2.jpg";
 import portfolio_img_3 from "@assets/img/portfolio/img-3.jpg";
 import portfolio_img_4 from "@assets/img/portfolio/img-4.jpg";
@@ -12,7 +12,7 @@ const portfolio_data = [
         id: 1,
         img: portfolio_img_1,
         catagory: "Marketing",
-        title: "Business Growth",
+        title: "HIBFF",
     },
     {
         id: 2,
