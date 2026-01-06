@@ -6,12 +6,12 @@ import useSticky from '@/src/hooks/use-sticky';
 
 import logo_img from "@assets/img/logo/home-2-logo.png";
 import logo_shape from "@assets/img/hero/hero-2/logo-shape.png";
-import SearchPopup from '@/src/modals/search-popup';
+// import SearchPopup from '@/src/modals/search-popup';
 import Sidebar from '@/src/modals/sidebar';
 
 const Header = () => {
    const { sticky } = useSticky()
-   const [searchOpen, setSearchOpen] = useState(false)
+   // const [searchOpen, setSearchOpen] = useState(false)
    const [sidebarOpen, setSidebarOpen] = useState(false)
 
    return (
@@ -58,7 +58,7 @@ const Header = () => {
                               </div>
                            </div>
                         </div>
-                        <div className="col-xxl-6 col-xl-7 d-none d-xl-block">
+                        <div className="col-xxl-8 col-xl-7 d-none d-xl-block">
                            <div className="tp-main-menu-2-area d-flex align-items-center">
                               <div className="tp-main-menu">
                                  <nav id="tp-mobile-menu">
@@ -67,25 +67,7 @@ const Header = () => {
                               </div>
                            </div>
                         </div>
-                        <div className="col-xxl-4 col-xl-3 col-lg-2 col-md-6">
-                           <div className="tp-header-2-right d-none d-xxl-block">
-                              <div className="tp-header-2-main-right d-flex align-items-center justify-content-xxl-end">
-                                 <div className="tp-header-2-phone d-flex align-items-center">
-                                    <div className="tp-header-2-phone-icon">
-                                       <i className="fa-solid fa-phone"></i>
-                                    </div>
-                                    <div className="tp-header-2-phone-content">
-                                       <span>Phone: <br /> <a href="tel:01900678956">+88 1900 6789 56</a></span>
-                                    </div>
-                                 </div>
-                                 <div className="tp-header-2-btn">
-                                    <Link href="/contact">Get an Quatre <i className="fa-regular fa-angle-right"></i></Link>
-                                 </div>
-                                 <div className="tp-header-search search-open-btn d-none d-xxl-block" onClick={() => setSearchOpen(true)}>
-                                    <button> <i className="fa-regular fa-magnifying-glass"></i></button>
-                                 </div>
-                              </div>
-                           </div>
+                        <div className="col-xxl-2 col-xl-3 col-lg-2 col-md-6">
                            <div className="tp-header-2-mobile-menu d-flex justify-content-end d-block d-xxl-none">
                               <div className="tp-header-2-hamburger-btn offcanvas-open-btn"
                                  onClick={() => setSidebarOpen(true)}
@@ -105,7 +87,7 @@ const Header = () => {
                </div>
             </div>
          </header>
-         <SearchPopup searchOpen={searchOpen} setSearchOpen={setSearchOpen} />
+         {/* <SearchPopup searchOpen={searchOpen} setSearchOpen={setSearchOpen} /> */}
          <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
 

@@ -54,11 +54,11 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, home_three }) => {
                                 </Link>
                             </div>
                         </div>
-                        <div className="mobile-menu fix d-lg-none"></div>
-                        <div className="tp-mobile-menu-pos mean-container d-lg-none">
+                        <div className="mobile-menu fix"></div>
+                        <div className="tp-mobile-menu-pos mean-container">
                             <MobileMenus />
                         </div>
-                        <div className="offcanvas__popup">
+                        {/* <div className="offcanvas__popup">
                             <p>Web designing in a powerful way of just not an only professions. We have tendency to believe the idea that smart looking .</p>
                             <div className="offcanvas__popup-gallery">
                                 <h4 className="offcanvas__title">Gallery</h4>
@@ -70,7 +70,7 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen, home_three }) => {
                                     </a>
                                 )}
                             </div>
-                        </div>
+                        </div> */}
                         <div className="offcanvas__contact">
                             <h4 className="offcanvas__title">Contacts</h4>
                             <div className="offcanvas__contact-content d-flex">
