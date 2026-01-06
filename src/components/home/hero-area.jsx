@@ -45,7 +45,7 @@ const slider_data = [
 const HeroArea = () => {
    return (
       <>
-         <section className="tp-hero-2-area p-relative" style={{ backgroundImage: `url(/assets/img/hero/hero-2/hero-bg.png)` }}>
+         <section className="tp-hero-2-area p-relative" style={{ backgroundImage: `url(/assets/img/hero/hero-2/hero.jpg)` }}>
             <div className="tp-hero-2-wrapper p-relative">
                <div className="container">
                   <div className="row align-items-center justify-content-center">
