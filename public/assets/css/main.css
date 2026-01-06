@@ -139,14 +139,14 @@ li,
   */
   --tp-common-white: #ffffff;
   --tp-common-black: #000;
-  --tp-heading-primary: #020626;
+  --tp-heading-primary: #030935;
   --tp-heading-secondary: #000000;
   --tp-grey-1: #F1F1F1;
   --tp-grey-2: #F5F6F8;
   --tp-text-body: #5A627D;
   --tp-text-1: #261F1F;
   --tp-text-2: #0C0808;
-  --tp-theme-primary: #020626;
+  --tp-theme-primary: #030935;
   --tp-theme-secondary: #090b74;
   --tp-bg-primary: #F3FBFE;
   --tp-border-primary: #000;
@@ -9788,7 +9788,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .tp-service-3-content {
   position: relative;
-  background: #020626;
+  background: #030935;
   border: 1px solid rgba(255, 255, 255, 0.1);
   padding: 58px 40px 36px 39px;
 }
@@ -11464,7 +11464,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 
 .tp-support-faq.faq-style-1 .tp-faq-tab-content .accordion-item .accordion-button {
   padding: 33px 55px 33px 54px;
-  color: #020626;
+  color: #030935;
 }
 
 @media (max-width: 575px) {
@@ -11478,11 +11478,11 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .tp-support-faq.faq-style-1 .tp-faq-tab-content .accordion-item .accordion-button:hover {
-  color: #020626;
+  color: #030935;
 }
 
 .tp-support-faq.faq-style-1 .tp-faq-tab-content .accordion-item.tp-faq-active .accordion-button {
-  color: #020626;
+  color: #030935;
 }
 
 .tp-support-faq.faq-style-1 .tp-faq-tab-content .accordion-body {
@@ -14304,7 +14304,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 }
 
 .tp-industry-tab #pills-tab {
-  border-bottom: 1px solid #020626;
+  border-bottom: 1px solid #030935;
 }
 
 .tp-industry-tab .nav-item .nav-link {
