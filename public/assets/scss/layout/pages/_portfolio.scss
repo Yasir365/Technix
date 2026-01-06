@@ -5,6 +5,13 @@
 /*  8.2 offer css
 /*----------------------------------------*/
 
+.tp-portfolio-item-wrapper {
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 12px 12px 0 0;
+    overflow: hidden;
+
+    &:hover {}
+}
 
 .tp-portfolio {
     &-area {}
@@ -14,6 +21,7 @@
             &:hover {
                 & .tp-portfolio-item-thumb {
                     & img {
+                        border-radius: 12px 12px 0 0;
                         transform: scale(1.05);
                     }
                 }
@@ -31,6 +39,7 @@
                 transition: all .3s ease-in-out;
                 width: 100%;
                 height: auto;
+                border-radius: 12px 12px 0 0;
 
                 @media #{$lg,$md,$sm,$xs} {
                     width: 100%;

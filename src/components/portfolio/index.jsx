@@ -6,7 +6,7 @@ import FooterContact from "@/src/layout/footers/footer-contact";
 const Portfolio = () => {
   return (
     <main>
-      <Breadcrumb top_title="IT Advisor" page_title="Portfolio" />
+      <Breadcrumb top_title="Our Portfolio" page_title="Portfolio" />
       <PortfolioArea />
       <FooterContact bg_style={true} />
     </main>
