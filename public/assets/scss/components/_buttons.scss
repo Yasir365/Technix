@@ -5,7 +5,7 @@
 /*----------------------------------------*/
 
 /* theme btn */
-  .tp-btn{
+.tp-btn {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -20,6 +20,7 @@
 	display: inline-block;
 	color: var(--tp-common-white);
 	background: var(--tp-theme-primary);
+
 	&::after {
 		position: absolute;
 		content: "";
@@ -29,8 +30,9 @@
 		border-radius: 15px;
 		right: -11px;
 		bottom: -11px;
-	  }
-	&::before{
+	}
+
+	&::before {
 		content: "";
 		position: absolute;
 		height: 400px;
@@ -47,20 +49,24 @@
 		transition: all 0.5s ease-out 0s;
 		z-index: -1;
 	}
-	&:hover{
-		color: var(--tp-theme-primary);
-		&::before{
+
+	&:hover {
+		color: var(--tp-grey-1);
+		transform: scale(1.05);
+
+		&::before {
 			transform: translateX(-50%) translateY(-50%) scale(1);
 		}
 	}
-	& i{
+
+	& i {
 		margin-left: 16px;
 		transform: translateY(2px);
 	}
-  }
+}
 
 
-  .tp-btn-2{
+.tp-btn-2 {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -75,6 +81,7 @@
 	display: inline-block;
 	color: var(--tp-common-white);
 	background: var(--tp-theme-secondary);
+
 	&::after {
 		position: absolute;
 		content: "";
@@ -84,8 +91,9 @@
 		border-radius: 15px;
 		right: -11px;
 		bottom: -11px;
-	  }
-	&::before{
+	}
+
+	&::before {
 		content: "";
 		position: absolute;
 		height: 400px;
@@ -102,20 +110,23 @@
 		transition: all 0.5s ease-out 0s;
 		z-index: -1;
 	}
-	&:hover{
+
+	&:hover {
 		color: var(--tp-theme-secondary);
-		&::before{
+
+		&::before {
 			transform: translateX(-50%) translateY(-50%) scale(1);
 		}
 	}
-	& i{
+
+	& i {
 		margin-left: 16px;
 		transform: translateY(2px);
 	}
-  }
+}
 
 
-  .tp-btn-3{
+.tp-btn-3 {
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
@@ -130,6 +141,7 @@
 	display: inline-block;
 	color: var(--tp-common-white);
 	background: var(--tp-theme-primary);
+
 	&::after {
 		position: absolute;
 		content: "";
@@ -139,8 +151,9 @@
 		border-radius: 15px;
 		right: -11px;
 		bottom: -11px;
-	  }
-	&::before{
+	}
+
+	&::before {
 		content: "";
 		position: absolute;
 		height: 400px;
@@ -157,17 +170,20 @@
 		transition: all 0.5s ease-out 0s;
 		z-index: -1;
 	}
-	&:hover{
+
+	&:hover {
 		color: var(--tp-theme-secondary);
-		&::before{
+
+		&::before {
 			transform: translateX(-50%) translateY(-50%) scale(1);
 		}
 	}
-	& i{
+
+	& i {
 		margin-left: 16px;
 		transform: translateY(2px);
 	}
-  }
+}
 
 
 //cursor hover effect
@@ -175,6 +191,7 @@
 	position: relative;
 	z-index: 9;
 	overflow: hidden;
+
 	&::after {
 		position: absolute;
 		content: '';
@@ -184,7 +201,8 @@
 		border-radius: 15px;
 		right: -11px;
 		bottom: -11px;
-	  }
+	}
+
 	& b {
 		position: absolute;
 		width: 0px;
@@ -200,6 +218,7 @@
 
 	&:hover {
 		color: var(--tp-theme-primary);
+
 		& b {
 			width: 1000px;
 			height: 1000px;
@@ -243,6 +262,7 @@
 	position: relative;
 	z-index: 9;
 	overflow: hidden;
+
 	& b {
 		position: absolute;
 		width: 0px;
@@ -259,6 +279,7 @@
 	&:hover {
 		color: var(--tp-common-white);
 		border-color: var(--tp-theme-secondary);
+
 		& b {
 			width: 500px;
 			height: 500px;
@@ -300,7 +321,7 @@
 
 
 /* offcanvas btn */
-.tp-btn-offcanvas{
+.tp-btn-offcanvas {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
@@ -313,12 +334,13 @@
 	position: relative;
 	z-index: 1;
 	text-transform: capitalize;
- 
-	& i{
-	   padding-left: 5px;
+
+	& i {
+		padding-left: 5px;
 	}
-	&:hover{
-	   background-color: var(--tp-common-black);
-	   color: var(--tp-common-white);
+
+	&:hover {
+		background-color: var(--tp-common-black);
+		color: var(--tp-common-white);
 	}
- }
+}

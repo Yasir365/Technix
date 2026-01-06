@@ -4,54 +4,65 @@
 /*  8.5 brand css
 /*----------------------------------------*/
 
-.tp-cta-2{
-    &-area{
+.tp-cta-2 {
+    &-area {
         background-color: var(--tp-bg-primary);
         background-repeat: no-repeat;
         background-size: cover;
+
         @media #{$lg} {
             padding-top: 60px;
         }
+
         @media #{$md,$sm,$xs} {
             padding-top: 0px;
         }
     }
-    &-shape{
+
+    &-shape {
         & .shape-1 {
             position: absolute;
             right: 0;
             bottom: 0;
+
             @media #{$lg,$md,$sm,$xs} {
                 display: none;
             }
         }
+
         & .shape-2 {
             position: absolute;
             right: 18%;
             top: -130px;
             z-index: 0;
+
             @media #{$xl,$lg,$md,$sm,$xs} {
                 display: none;
             }
         }
+
         & .shape-3 {
             position: absolute;
             bottom: 0;
             left: -25px;
+
             @media #{$sm,$xs} {
                 display: none;
             }
         }
     }
-    &-title-wrapper{
+
+    &-title-wrapper {
         @media #{$lg} {
             margin-top: 35px;
         }
-        & .tp-section-title{
+
+        & .tp-section-title {
             font-size: 48px;
         }
     }
-    &-content{
+
+    &-content {
         position: relative;
         height: 336px;
         width: 336px;
@@ -59,14 +70,17 @@
         border-radius: 50%;
         line-height: 102px;
         padding: 50px 0px;
+
         @media #{$md,$sm,$xs} {
             margin-bottom: 40px;
         }
+
         @media #{$xs} {
             height: 290px;
             width: 290px;
             line-height: 60px;
         }
+
         &::before {
             position: absolute;
             content: '';
@@ -76,19 +90,22 @@
             width: 300px;
             border: 1px #fff dashed;
             border-radius: 50%;
+
             @media #{$xs} {
                 height: 255px;
                 width: 255px;
             }
-          }
-        &-icon{
-            & span{
+        }
+
+        &-icon {
+            & span {
                 color: var(--tp-common-white);
                 display: block;
             }
         }
-        &-inner{
-            & .cta-title{
+
+        &-inner {
+            & .cta-title {
                 position: relative;
                 font-weight: 500;
                 font-family: var(--tp-ff-p);
@@ -96,6 +113,7 @@
                 line-height: 56px;
                 color: var(--tp-heading-secondary);
                 margin-bottom: -2px;
+
                 &::after {
                     position: absolute;
                     content: '';
@@ -104,17 +122,19 @@
                     background: var(--tp-common-white);
                     bottom: 0;
                     left: 78px;
+
                     @media #{$xs} {
                         left: 55px;
                     }
-                  }
+                }
             }
-            & a{
+
+            & a {
                 font-weight: 500;
                 font-size: 22px;
                 display: block;
                 line-height: 56px;
-                color: var(--tp-heading-secondary);
+                color: var(--tp-grey-1);
                 margin-bottom: 0;
             }
         }
@@ -122,59 +142,70 @@
 }
 
 
-.tp-cta-3{
-    &-area{
+.tp-cta-3 {
+    &-area {
         background: var(--tp-theme-primary);
         overflow: hidden;
     }
-    &-shape{
+
+    &-shape {
         position: absolute;
         top: 0;
         left: 0;
+
         @media #{$xs} {
             display: none;
         }
     }
-    &-wrapper{
+
+    &-wrapper {
         background-color: var(--tp-theme-secondary);
         padding: 45px 48px 30px 65px;
+
         @media #{$xs} {
             padding: 25px;
         }
     }
-    &-title-wrapper{
-        & .tp-cta-3-title{
+
+    &-title-wrapper {
+        & .tp-cta-3-title {
             font-weight: 700;
             font-size: 32px;
             line-height: 42px;
             color: var(--tp-common-white);
             margin-bottom: 0;
+
             @media #{$md,$sm,$xs} {
                 margin-bottom: 25px;
             }
-            & br{
+
+            & br {
                 @media #{$lg,$md,$sm,$xs} {
-                 display: none;   
+                    display: none;
                 }
             }
         }
     }
-    &-phone{
+
+    &-phone {
         @media #{$sm,$xs} {
             margin-bottom: 25px;
         }
-        &-content{
-            & span{
+
+        &-content {
+            & span {
                 font-weight: 500;
                 font-size: 16px;
                 line-height: 21px;
                 text-transform: uppercase;
                 color: rgba(255, 255, 255, 0.79);
-                & a{
+
+                & a {
                     color: var(--tp-common-white);
                 }
             }
         }
+
         &-icon {
             position: relative;
             height: 60px;
@@ -185,7 +216,8 @@
             line-height: 60px;
             margin-right: 25px;
             flex: 0 0 auto;
-            &::after{
+
+            &::after {
                 position: absolute;
                 top: -6px;
                 left: -6px;
@@ -195,21 +227,26 @@
                 background: rgba(255, 255, 255, 0.54);
                 border-radius: 50%;
             }
-          }
+        }
     }
-    &-btn{
+
+    &-btn {
         padding-left: 75px;
+
         @media #{$lg} {
             padding-left: 10px;
         }
+
         @media #{$md} {
             padding-left: 40px;
         }
+
         @media #{$sm,$xs} {
             padding-left: 0;
         }
-        & .tp-btn-hover{
-            &::after{
+
+        & .tp-btn-hover {
+            &::after {
                 background: var(--tp-common-white);
             }
         }
@@ -217,50 +254,60 @@
 }
 
 
-.tp-cta-4{
-    &-area{
+.tp-cta-4 {
+    &-area {
         overflow: hidden;
         background: #F1FBFE;
-     }
-    &-shape{
+    }
+
+    &-shape {
         position: absolute;
         top: 5px;
         left: 50%;
         z-index: 1;
     }
-    &-wrapper{
-        &-left{
+
+    &-wrapper {
+        &-left {
             position: relative;
             padding: 51px 15px 50px 55px;
             background: var(--tp-theme-secondary);
+
             @media #{$xs} {
                 padding: 45px 15px 45px 25px;
             }
-            & .shape-1{
+
+            & .shape-1 {
                 position: absolute;
                 bottom: 0;
                 left: 0;
             }
         }
-        &-right{
+
+        &-right {
             background: var(--tp-theme-primary);
             padding: 51px 15px 53px 55px;
+
             @media #{$xs} {
                 padding: 45px 15px 45px 25px;
             }
         }
     }
-    &-mail{
-        & img{
+
+    &-mail {
+        & img {
             margin-right: 32px;
+
             @media #{$sm} {
                 margin-right: 15px;
             }
+
             @media #{$xs} {
                 margin-bottom: 15px;
             }
         }
-        & a{
+
+        & a {
             font-weight: 600;
             font-size: 22px;
             line-height: 26px;
@@ -268,43 +315,53 @@
             border: 1px solid rgba(255, 255, 255, 0.4);
             border-radius: 66.5px;
             padding: 12px;
+
             @media #{$sm} {
                 font-size: 20px;
             }
+
             @media #{$xs} {
                 font-size: 16px;
             }
-            & span{
+
+            & span {
                 text-decoration: underline;
             }
         }
     }
-    &-headphone-thumb{
+
+    &-headphone-thumb {
         margin-right: 25px;
-        & img{
+
+        & img {
             @media #{$xs} {
                 margin-bottom: 15px;
             }
         }
     }
-    &-content{
-        & p, a{
+
+    &-content {
+
+        & p,
+        a {
             font-family: var(--tp-ff-heading);
             font-weight: 600;
             font-size: 18px;
             text-transform: uppercase;
             color: var(--tp-common-white);
             margin-bottom: 6px;
+
             @media #{$xs} {
                 font-size: 15px;
             }
-            & span{
+
+            & span {
                 color: var(--tp-theme-secondary);
             }
         }
-        & a{
+
+        & a {
             color: var(--tp-theme-secondary);
         }
     }
 }
-

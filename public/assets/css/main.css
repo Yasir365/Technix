@@ -147,7 +147,7 @@ li,
   --tp-text-1: #261F1F;
   --tp-text-2: #0C0808;
   --tp-theme-primary: #020626;
-  --tp-theme-secondary: #05DAC3;
+  --tp-theme-secondary: #090b74;
   --tp-bg-primary: #F3FBFE;
   --tp-border-primary: #000;
   --tp-border-secondary: #000;
@@ -9068,7 +9068,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .tp-feature-wrapper p::after {
   position: absolute;
   content: "";
-  background: #05DAC3;
+  background: #090b74;
   width: 2px;
   height: 41px;
   left: 128px;
@@ -13896,7 +13896,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   border-radius: 50%;
   bottom: -25px;
   right: -7px;
-  background-color: #05DAC3;
+  background-color: #090b74;
 }
 
 .circle-animation span.tp-circle-6 {
@@ -13926,7 +13926,7 @@ only screen and (min-width: 992px) and (max-width: 1199px) {
   border-radius: 50%;
   top: -25px;
   right: -6px;
-  background-color: #05DAC3;
+  background-color: #090b74;
 }
 
 .circle-animation span.tp-circle-7 {
@@ -14147,7 +14147,7 @@ only screen and (min-width: 576px) and (max-width: 767px),
 .tp-industry-content-title::after {
   position: absolute;
   content: "";
-  background: #05DAC3;
+  background: #090b74;
   width: 2px;
   height: 56px;
   left: -10px;
