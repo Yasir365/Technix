@@ -3,13 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
-import RecentPost from './recent-post';
-import Category from './category';
-import Tags from './tags';
-import SearchArea from './search-area';
-import UserProfile from './user-profile';
-
-
 
 const PostboxArea = () => {
    return (
@@ -17,7 +10,7 @@ const PostboxArea = () => {
          <section className="postbox__area pt-5 pb-120">
             <div className="container">
                <div className="row">
-                  <div className="col-xxl-8 col-xl-8 col-lg-8">
+                  <div className="col-12">
                      <div className="postbox__wrapper">
                         {post_data.map((item, i) =>
                            <article key={i} className="postbox__item format-image mb-50 transition-3">
@@ -73,15 +66,6 @@ const PostboxArea = () => {
                               </ul>
                            </nav>
                         </div>
-                     </div>
-                  </div>
-                  <div className="col-xxl-4 col-xl-4 col-lg-4">
-                     <div className="sidebar__wrapper">
-                        <UserProfile />
-                        <SearchArea />
-                        <RecentPost />
-                        <Category />
-                        <Tags />
                      </div>
                   </div>
                </div>

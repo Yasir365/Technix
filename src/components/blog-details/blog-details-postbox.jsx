@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import Tags from '../blog/tags';
-import Category from '../blog/category';
-import SearchArea from '../blog/search-area';
-import RecentPost from '../blog/recent-post';
-import UserProfile from '../blog/user-profile';
+import Tags from './tags';
+import Category from './category';
+import SearchArea from './search-area';
+import RecentPost from './recent-post';
 import CommentForm from '@/src/forms/comment-form';
 
 
@@ -240,7 +239,6 @@ const BlogDetailsPostbox = () => {
                   </div>
                   <div className="col-xxl-4 col-xl-4 col-lg-4">
                      <div className="sidebar__wrapper">
-                        <UserProfile />
                         <SearchArea />
                         <RecentPost />
                         <Category />
